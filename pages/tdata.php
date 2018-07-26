@@ -1,7 +1,8 @@
 <?php 
 	require 'connect.php';
-	$src = $_POST['source'];
-	$dest = $_POST['destination'];
+	$src = $_POST['from'];
+	$dest = $_POST['to'];
+
 
 	$sql = "INSERT INTO trip (source, destination) VALUES ('$src', '$dest')";
 	$obj = array("source" => $src, "destination" => $dest);

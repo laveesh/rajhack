@@ -19,8 +19,8 @@ function initMap() {
 
 
 function getloc() {
-	var source = document.getElementById('source');
-	var dest = document.getElementById('destination');
+	var source = document.getElementById('from');
+	var dest = document.getElementById('to');
 	var autocomplete = new google.maps.places.Autocomplete(source);
 	var autocomplete = new google.maps.places.Autocomplete(dest);
 
